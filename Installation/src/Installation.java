@@ -41,7 +41,7 @@ public class Installation {
             }
         }
 
-        saveLog(String.valueOf(log));
+        saveLog(log.toString());
     }
 
     private void saveLog (String log) {
